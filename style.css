@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Ubuntu", sans-serif;
+}
+ul , ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#qr{
+    background-color:rgb(209, 121, 121) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#qr .box{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#qr .box input, #qr .box button {
+    border: none;
+    padding: 15px;  
+}
+#qr .img{
+    text-align: center;  
+}
